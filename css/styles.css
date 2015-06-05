@@ -1,0 +1,283 @@
+@import url(http://weloveiconfonts.com/api/?family=fontawesome);
+[class*="fontawesome-"]:before {
+  font-family: 'FontAwesome', sans-serif;
+}
+
+body {
+  padding: 45px 0;
+  font: 13px 'Open Sans', "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+
+}
+
+#weather1 {
+  width: 75%;
+  margin: 0px auto;
+  text-align: center;
+  height: 600px;
+  margin: 1% auto;
+  background-color: #1F222A;
+  border-radius: 7px;
+}
+
+#weather2 {
+width: 75%;
+  margin: 0px auto;
+  text-align: center;
+  height: 600px;
+  margin: 1% auto;
+  background-color: #1F222A;
+  border-radius: 7px;
+}
+
+#weather3 {
+width: 75%;
+  margin: 0px auto;
+  text-align: center;
+  height: 600px;
+  margin: 1% auto;
+  background-color: #1F222A;
+  border-radius: 7px;
+}
+
+#weather1 h2 {
+  margin: 0 0 8px;
+  color: gold;
+  font-size: 8em;
+  font-weight: 600;
+  text-align: center;
+  text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.15);
+}
+
+#weather1 h1{
+  width: 100%;
+  padding: 40px 0px 35px 0px;
+  position: relative;
+  border-bottom: 2px solid #4b4e57;
+  float: left;
+}
+
+#weather2 h1{
+  width: 100%;
+  padding: 40px 0px 35px 0px;
+  position: relative;
+  border-bottom: 2px solid #4b4e57;
+  float: left;
+}
+
+#weather3 h1{
+  width: 100%;
+  padding: 40px 0px 35px 0px;
+  position: relative;
+  border-bottom: 2px solid #4b4e57;
+  float: left;
+}
+
+#weather2 h2 {
+  margin: 0 0 8px;
+  color: gold;
+  font-size: 8em;
+  font-weight: 600;
+  text-align: center;
+  text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.15);
+}
+
+#weather3 h2 {
+  margin: 0 0 8px;
+  color: gold;
+  font-size: 8em;
+  font-weight: 600;
+  text-align: center;
+  text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.15);
+}
+
+#weather1 ul {
+  margin: 0;
+  padding: 0;
+}
+
+#weather2 ul {
+  margin: 0;
+  padding: 0;
+}
+
+#weather3 ul {
+  margin: 0;
+  padding: 0;
+}
+
+#weather1 li {
+  padding: 10px;
+  display: inline-block;
+  margin: 10px;
+  font-size:2em;
+}
+
+#weather2 li {
+  padding: 10px;
+  display: inline-block;
+  margin: 10px;
+  font-size:2em;
+}
+
+#weather3 li {
+  padding: 10px;
+  display: inline-block;
+  margin: 10px;
+  font-size:2em;
+}
+
+#weather1 .currently {
+  margin: 0 20px;
+}
+
+#weather2 .currently {
+  margin: 0 20px;
+}
+
+#weather3 .currently {
+  margin: 0 20px;
+}
+
+
+
+
+
+
+
+/* General styles */
+
+
+body {
+  color: #eee;
+  font-family: 'Open Sans', sans-serif;
+  background-color: #E0E1E3;
+}
+
+section {
+  box-sizing: border-box;
+  padding: 10px 40px;
+  float: left;
+  position: relative;
+  background-color: #1F222A;
+  border-radius: 7px;
+  text-align: center;
+  width: 100%
+}
+section h1 {
+  width: 400px;
+  padding: 20px 0px 35px 0px;
+  position: relative;
+  font-size: 1.5em;
+  border-bottom: 2px solid #4b4e57;
+}
+section h1 a.add {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: 10px;
+  right: 0px;
+  color: #4b4e57;
+  font-size: 2.4em;
+  text-align: center;
+  line-height: 45px;
+  text-decoration: none;
+  background-color: black;
+  border-radius: 3px;
+  transition: color 0.5s;
+}
+section h1 a.add:hover {
+  color: #eee;
+}
+section .temperature {
+  padding: 40px 0px;
+  color: #3D414C;
+  font-size: 6em;
+  transition: color 0.5s ease;
+}
+section .temperature:hover {
+  color: yellow;
+}
+section .temperature h2 {
+  display: inline;
+  color: #eee;
+  font-weight: 300;
+}
+section .temperature h2 span.degree-symbol {
+  display: inline-block;
+  margin: 0px 15px;
+  font-size: 0.6em;
+  vertical-align: top;
+}
+section .temperature h2 span.celcius {
+  display: inline-block;
+  margin: 10px 0px 0px 15px;
+  color: #3D414C;
+  font-size: 0.3em;
+  vertical-align: top;
+}
+section ul {
+  padding: 5px;
+  margin-bottom: 70px;
+}
+section ul li {
+  display: block;
+  color: #3D414C;
+  font-size: 2em;
+}
+section ul li:last-child {
+  margin-right: 0px;
+}
+section ul li span {
+  padding-left: 10px;
+  color: #eee;
+  font-size: 0.6em;
+  line-height: 30px;
+  vertical-align: top;
+}
+
+
+
+
+section .bullets {
+  height: 70px;
+  color: #3D414C;
+  text-align: center;
+}
+section .bullets span {
+  margin-right: 10px;
+  font-size: 0.6em;
+}
+section .bullets span.active {
+  color: #eee;
+  font-size: 0.8em;
+}
+section a {
+  color: #60646e;
+  font-size: 1.2em;
+  text-decoration: none;
+  transition: color 0.5s;
+}
+section a:hover {
+  color: #eee;
+}
+section a .external-link {
+  padding-left: 5px;
+  font-size: 0.6em;
+  vertical-align: middle;
+}
+section .share {
+  width: 100px;
+  height: 90px;
+  position: absolute;
+  bottom: 20px;
+  right: -10px;
+  color: #eee;
+  font-size: 2em;
+  text-align: center;
+  line-height: 90px;
+  background-color: rgba(210, 58, 81, 0.9);
+  transition: right 0.2s;
+}
+section .share:hover {
+  right: -20px;
+}
